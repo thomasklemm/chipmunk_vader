@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		860CD4FF1AAB7A510066D5B4 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CD4FE1AAB7A510066D5B4 /* RecordedAudio.swift */; };
 		8639FEB21AAA2B3800A94754 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639FEB11AAA2B3800A94754 /* PlayerViewController.swift */; };
-		8639FEB61AAA304800A94754 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8639FEB51AAA304800A94754 /* movie_quote.mp3 */; };
 		86BCD3111AA9B63400C58071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BCD3101AA9B63400C58071 /* AppDelegate.swift */; };
 		86BCD3131AA9B63400C58071 /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BCD3121AA9B63400C58071 /* RecorderViewController.swift */; };
 		86BCD3161AA9B63400C58071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BCD3141AA9B63400C58071 /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 /* Begin PBXFileReference section */
 		860CD4FE1AAB7A510066D5B4 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		8639FEB11AAA2B3800A94754 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
-		8639FEB51AAA304800A94754 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = ../../../../Downloads/movie_quote.mp3; sourceTree = "<group>"; };
 		86BCD30B1AA9B63400C58071 /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86BCD30F1AA9B63400C58071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86BCD3101AA9B63400C58071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 		86BCD30E1AA9B63400C58071 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8639FEB51AAA304800A94754 /* movie_quote.mp3 */,
 				86BCD30F1AA9B63400C58071 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -208,7 +205,6 @@
 			files = (
 				86BCD3161AA9B63400C58071 /* Main.storyboard in Resources */,
 				86BCD31B1AA9B63400C58071 /* LaunchScreen.xib in Resources */,
-				8639FEB61AAA304800A94754 /* movie_quote.mp3 in Resources */,
 				86BCD3181AA9B63400C58071 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

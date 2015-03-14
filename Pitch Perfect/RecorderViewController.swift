@@ -66,7 +66,7 @@ class RecorderViewController: UIViewController, AVAudioRecorderDelegate {
         let pathArray = [dirPath, recordingName]
         let filePath = NSURL.fileURLWithPathComponents(pathArray)
         
-        audioSession.setCategory(AVAudioSessionCategoryPlayAndRecord, error: nil)
+        audioSession.setCategory(AVAudioSessionCategoryRecord, error: nil)
         
         audioRecorder = AVAudioRecorder(URL: filePath, settings: nil, error: nil)
         audioRecorder.delegate = self

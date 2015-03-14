@@ -15,6 +15,7 @@ class PlayerViewController: UIViewController {
     var audioPlayer: AVAudioPlayerNode!
     var audioFile: AVAudioFile!
     var audioEffects: AVAudioUnitTimePitch!
+    var audioSession = AVAudioSession.sharedInstance()
     var recordedAudio: RecordedAudio!
 
     @IBOutlet weak var playbackRateSlider: UISlider!
@@ -25,6 +26,9 @@ class PlayerViewController: UIViewController {
 
         // Default playback rate
         playbackRateSlider.value = 1.0
+        
+        // Allows playing audio over the speaker
+        audioSession.setCategory(AVAudioSessionCategoryAmbient, error: nil)
         
         // Set up the audio player
         audioFile = AVAudioFile(forReading: recordedAudio.filePathUrl, error: nil)
